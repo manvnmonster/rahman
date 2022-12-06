@@ -1,0 +1,19 @@
+@media ( max-width: 991px ) {
+	.menu, .search{
+		display: none;
+	}
+	.nav-bar-icon{
+		display: block;
+		width: 70%;
+		text-align:right;
+
+	}
+	.nav-bar-icon i{
+		color: #c48669;
+		font-size: 25px;
+	}
+	.logo{
+		width: 70%
+	}
+
+}

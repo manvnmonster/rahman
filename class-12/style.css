@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Parisienne&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.header-area{
+	background: transparent;
+	padding: 20px 0;
+	position: absolute;
+	width: 100%;
+
+}	
+.container{
+	width: 85%;
+	margin: auto;
+}
+.nav-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	width: 40%;
+}
+.menu{
+	width: 60%;
+}
+.menu ul{
+	display: flex;
+	justify-content: center;
+}
+.menu ul li a{
+	color: #fff;
+	text-transform: uppercase;
+	padding: 0 20px;
+}
+
+.menu ul li a:hover{
+	color: #c48669;
+	transition: .3s
+}
+.search{
+	width: 15%;
+}
+.search-box{
+	width: 100%;
+	background: #fff;
+	position: relative;
+}
+.search-box input{
+	background: transparent;
+	border: none;
+}
+.search-box	button{
+	border: none;
+	background: transparent;	
+}
+.nav-bar-icon{
+	display: none;
+}
+.banner{
+	background: url('images/banner.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+.banner-overlay{
+	background:rgba(0,0,0,0.7);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.title{
+	width: 100%;
+	text-align: center;
+}
+.title h1{
+	color: #fff;
+	font-size: 50px;
+
+}
+.title p{
+	color: #fff;
+	font-size: 14px;
+}
+
+
+/*About*/
+
+
+.about-us{
+	background: #000;
+	padding: 100px 0;
+}
+.about-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.about-left{
+	width: 50%;
+}
+.about-right{
+	width: 40%;
+}
+
+.about-right h2{
+	color: #c48669;
+	font-size: 35px;
+	margin-bottom: 15px;
+}
+.about-right p{
+	margin-bottom: 15px;
+	color: #fff;
+}
+.about-right a{
+
+	border: 2px solid #c48669;
+	color: #c48669;
+	padding: 10px 30px;
+	display: inline-block;
+	transition: .3s;
+}
+.about-right a:hover{
+	background: #c48669;
+	color: #fff;
+}
+.service{
+	padding: 100px 0;
+	background:#718093;
+}
+
+.section-title{
+	text-align: center;
+	margin-bottom: 40px;
+}
+..section-title h2{
+	font-size: 35px;
+	color: #000;
+}
+
+.service-content{
+	display: flex;
+	justify-content: space-between;
+}
