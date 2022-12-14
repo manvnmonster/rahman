@@ -1,0 +1,52 @@
+@media ( max-width: 991px ) {
+	.menu, .search{
+		display: none;
+	}
+	.nav-bar-icon{
+		display: block;
+		width: 70%;
+		text-align:right;
+
+	}
+	.nav-bar-icon i{
+		color: #c48669;
+		font-size: 25px;
+	}
+	.logo{
+		width: 70%;
+	}
+
+	.about-left{
+		width: 100%;
+	}
+
+	.about-right{
+		width: 100%;
+	}
+
+
+
+	.service-item{
+		width: 49%;
+		margin-bottom: 20px;
+	}
+
+	.item{
+		width: 48%;
+	}
+
+	
+
+
+
+}
+
+@media ( max-width: 500px ){
+	.service-item{
+		width: 100%;
+	}
+
+	.item{
+		width: 100%;
+	}
+}
