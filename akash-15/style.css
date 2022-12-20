@@ -1,0 +1,21 @@
+
+.btn-dark{
+	background: #2c3e50;
+}
+.btn-dark:hover{
+	background:#16a085
+}
+
+.our-table{
+	padding: 50px 0;
+}
+.our-form{
+	background: #2c3e50;
+	width: 52%;
+	padding: 25px;
+
+
+}
+.our-form label{
+	color: #fff;
+} 
