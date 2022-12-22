@@ -1,0 +1,142 @@
+   m @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	background: #fff;
+}
+
+.rose-1{
+	background:#2ecc71;
+	padding:50px 20px;
+	
+}
+.rose-1 h2{
+	color: #fff;
+	text-transform:uppercase;
+	font-size: 35px;
+}
+.rose-1 p{
+	color: #fff;
+	font-size: 18px
+
+}
+.rose-1 a{
+	display: none;
+}
+
+.rose-2{
+	background: #ffeaa7;
+	padding: 100px 0;
+}
+.container{
+	width: 85%;
+	margin: auto;
+}
+.rose-2 p{
+	text-align: justify;
+
+.photo{
+	width:100%;
+	margin-bottom: 20px;
+	margin:auto;
+}
+}
+.gallery{
+	display: flex;
+	justify-content: space-between;
+	flex-flow: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+
+	.rose-1{
+		background: #2d3436;
+	}
+	.rose-1 h2{
+		color: #fdcb6e;
+	}
+	.rose-1 p{
+		color: #ffeaa7;
+	}
+	.photo{
+		width: 100%;
+		
+	}
+
+
+/*end*/
+}
+
+
+@media (max-width: 600px) {
+	.header{
+		background: #fff200;
+	}
+	.menu{
+		display: none;
+	}
+	.menu-button{
+		display: block;
+		text-align: center;
+	}
+	.menu-button span{
+		color: #fff;
+		padding: 10px 20px;
+		display: block;
+	}
+}
+
+
+
+
+@media (max-width: 500px) {
+
+	.rose-1{
+		background: #079992;
+	}
+	.rose-1 h2{
+		color: #2f3640;
+		text-align: center;
+	}
+	.rose-1 p{
+		color: #2f3640;
+		text-align: center;
+	}
+	.rose-1 a{
+		display: block;
+		border: 1px solid #000;
+		text-align: center;
+		text-decoration: none;
+		margin-top: 10px;
+		padding: 10px 0;
+		color: #000;
+		text-transform: uppercase;
+	}
+	.photo{
+		width: 100%;
+	}
+
+/*end*/
+}
+
+
+
+
+
