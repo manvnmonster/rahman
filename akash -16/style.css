@@ -1,0 +1,24 @@
+img{
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+
+.shapla-1{
+	background: #ffeaa7;
+	padding: 100px 0;
+}
+.shapla-2{
+	background: #fff;
+	padding: 100px 0;
+}
+
+
+
+
+
+@media (max-width: 767px) {
+	.golap{
+		margin-bottom: 15px;
+	}
+}
